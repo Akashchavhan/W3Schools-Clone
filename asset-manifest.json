@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.157ea449.css",
+    "main.js": "/my-app/static/js/main.2dd738a2.js",
+    "static/media/ad2.png": "/my-app/static/media/ad2.82a9f314ffe5aad19e32.png",
+    "static/media/ad3.png": "/my-app/static/media/ad3.111ad1e7b6a64f4cde40.png",
+    "static/media/ad1.png": "/my-app/static/media/ad1.2e5bebabc588dda38bda.png",
+    "static/media/goal.png": "/my-app/static/media/goal.18b5fd98912b02da8ccd.png",
+    "static/media/loupe.png": "/my-app/static/media/loupe.1d92f967297920015306.png",
+    "static/media/night-mode.png": "/my-app/static/media/night-mode.af756898c83d580eccda.png",
+    "index.html": "/my-app/index.html",
+    "main.157ea449.css.map": "/my-app/static/css/main.157ea449.css.map",
+    "main.2dd738a2.js.map": "/my-app/static/js/main.2dd738a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157ea449.css",
+    "static/js/main.2dd738a2.js"
+  ]
+}
