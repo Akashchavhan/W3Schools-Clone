@@ -1,0 +1,39 @@
+.Sidebar{
+    height: 610px;
+    width: 250px;
+    background-color:#E7E9EB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
+    margin-top: 84px;
+    position: fixed;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+#select2{
+    height: 33px;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-top: 4px;
+    
+}
+#select2:hover{
+    background-color: #c7c8ca;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+#head1,#head2,#head3{
+    height: 60px;
+}
+#head1 h1,#head2 h1,#head3 h1{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+#select2:active{
+    background-color: #04AA6D;
+    color: white;
+}

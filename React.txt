@@ -1,0 +1,108 @@
+*******index.js****************
+
+import ReactDom from 'react-dom/client';
+import App from './App'
+import './index.css'
+
+//Old method
+// ReactDom.render(<App/>,document.getElementById('root'))
+
+//New Method
+const root=ReactDom.createRoot(document.getElementById('root'))
+root.render(<App></App>)
+
+*******App.js***************
+
+import './App.css'
+
+function App(){
+    return(   
+
+      //it only takes one tag and render soo we have to add all tags into one div. 
+
+        <div>     
+          <h1 className='eid'>Seven Mentors</h1>
+          <h3>Java</h3>
+          <h3>C++</h3>
+          <h3>React</h3>
+        </div>
+    )
+}
+
+export default App;
+
+**********************************************************************
+creating card 
+
+import './App.css'
+
+function App(){
+    return(
+        <div className='container'>     
+        <div className='card'>
+          <h2>Title:<span>Singham</span></h2>
+          <h2>Actor:<span>Ajay Devgun</span></h2>
+          <h2>Actress:<span>Kajol</span></h2>
+          <h2>Rating:<span>7</span></h2>
+        </div>
+        </div>
+    )
+}
+
+export default App;
+
+********App.css************
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: yellow;
+    border: 3px solid black;
+    font-size: 15px;
+    padding-left: 10px;
+}
+span{
+    color: rgb(2, 134, 134);
+    padding-left: 10px;
+}
+
+*********************************************************************
+---App.jsx---
+
+import Card from './Card'
+import './App.css'
+
+function App(){
+    return(
+        <div className='container'>
+          <Card title="singham" actor="Ajay" actress="Kajol" rating="7"></Card>
+
+          <Card title="Animal" actor="ranbir" actress="rashmika" rating="9"></Card>
+
+          <Card title="kabir singh" actor="sahid" actress="Kiara" rating="8"></Card>
+        </div>
+    )
+}
+
+export default App;
+
+*********Card.jsx*************************
+
+import './Card.css'
+
+function Card(proxy){
+    return(
+        <div className='card'>
+          <h2>Title:<span>{proxy.title}</span></h2>
+          <h2>Actor:<span>{proxy.actor}</span></h2>
+          <h2>Actress:<span>{proxy.actress}</span></h2>
+          <h2>Rating:<span>{proxy.rating}</span></h2>
+        </div>
+    )
+}
+
+export default Card;
+
+
+
+

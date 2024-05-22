@@ -1,0 +1,11 @@
+.Footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(161, 237, 46);
+    color: aliceblue;
+    border: 2px solid black;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

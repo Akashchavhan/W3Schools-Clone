@@ -1,0 +1,30 @@
+.Ad1{
+    height: 90px;
+    width: 50%;
+    background-image: url(./ad1.png);
+    margin-left: 26%;
+    margin-top: 6.7%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Ad2{
+    height: 565px;
+    width: 20%;
+    background-image: url(./ad2.png);
+    margin-left: 125%;
+    margin-top: 4%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Ad3{
+    height: 630px;
+    width: 20%;
+    background-image: url(./ad3.png);
+    margin-left: 125%;
+    margin-top: 81%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

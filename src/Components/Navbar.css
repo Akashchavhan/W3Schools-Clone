@@ -1,0 +1,156 @@
+.opt{
+    height: 50px;
+    width: 110px;
+    /* margin-top: 6px; */
+}
+#select1:hover{
+    background-color: #04AA6D;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;   
+    color: white;
+}
+.Navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+#logo{
+    width: 70px;
+    height: 35px;
+    background-image: url(./w3schools-logo-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+#select1{
+    height: 100%;
+    width: 70%;
+    font-size: 15px;
+    border: 2px solid transparent;
+}
+#search{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: -15px;
+    width: 175px;
+}
+#search::placeholder{
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 15.5px;
+}
+.search-box{
+  height: 18px;
+  width: 100px;
+  background-image: url(./loupe.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 18px;
+  margin-left: -1.8%;
+}
+.btn1{
+    height: 39px;
+    width: 90px;
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    margin-top: 6px;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 87%;
+}
+.btn2{
+    height: 39px;
+    width: 110px;
+    background-color: #D9EEE1;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: 41%;
+    padding-left: 25px;
+}
+.btn1:hover{
+    background-color: #088155e3;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #068f5c;
+    cursor: pointer;
+    color: white;
+}
+.theme{
+    background-image: url(./night-mode.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 47%;
+    margin-top: 1.1%;
+    transform: rotate(180deg);
+}
+.goal{
+    background-image: url(./goal.png);
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 7.5%;
+    margin-left: -19%;
+}
+.setGoal{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 1%;
+}
+.codeSpace{
+    background-image: url(./code.png);
+    width: 141px;
+    height: 19px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 2%;
+    margin-left: -29%;
+}
+.code{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 1%;
+}
+.shopCart{
+    background-image: url(./shopping-cart\ \(1\).png);
+    width: 131px;
+    height: 18px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3%;
+    margin-left: -29%;
+}
+.cart{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+.setGoal,.codeSpace,.shopCart,.cart{
+   cursor: default;
+}
